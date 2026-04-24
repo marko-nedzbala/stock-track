@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  risk-dashboard:
+    build: .
+    ports:
+      - "8501:8501"
